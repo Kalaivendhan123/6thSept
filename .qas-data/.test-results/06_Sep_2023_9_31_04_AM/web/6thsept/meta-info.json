@@ -1,0 +1,26 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "author": "kalaivendhan.desingu",
+        "description": "",
+        "groups": [],
+        "lineNo": 0,
+        "name": "Case 1",
+        "referece": "",
+        "resultFileName": "Case 1",
+        "testSuiteName": "6thsept",
+        "sign": "",
+        "executedOn": "Local"
+      },
+      "dependsOn": [],
+      "startTime": 0,
+      "duration": 13341000000,
+      "result": "pass",
+      "passPer": 0
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Case 1",
+    "line": 9,
+    "description": "",
+    "id": "Case 1",
+    "tags": [],
+    "uri": "6thsept/Case 1",
+    "testSuiteName": "6thsept",
+    "type": "web",
+    "appName": "chrome",
+    "capability": {
+      "remoteUrl": "https://qas.qmetry.com/bank/",
+      "type": "web",
+      "selectBrowser": "chrome",
+      "selectDevice": "",
+      "isRemote": false,
+      "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+      "isDebugMode": false,
+      "details": {
+        "deviceMetrics": {
+          "name": "",
+          "width": "",
+          "height": "",
+          "pixelRatio": "",
+          "userAgent": ""
+        }
+      }
+    },
+    "desiredCapabilities": {},
+    "elements": [
+      {
+        "id": "Case 1",
+        "keyword": "Scenario",
+        "description": "",
+        "line": 9,
+        "name": "Case 1",
+        "type": "scenario",
+        "testData": "",
+        "executionStatus": "Passed",
+        "tagName": [],
+        "capability": {
+          "remoteUrl": "https://qas.qmetry.com/bank/",
+          "type": "web",
+          "selectBrowser": "chrome",
+          "selectDevice": "",
+          "isRemote": false,
+          "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+          "isDebugMode": false,
+          "details": {
+            "deviceMetrics": {
+              "name": "",
+              "width": "",
+              "height": "",
+              "pixelRatio": "",
+              "userAgent": ""
+            }
+          }
+        },
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given",
+            "line": 1,
+            "name": "get https://qas.qmetry.com/bank/",
+            "match": {
+              "location": "Case 1/01"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4824000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 2,
+            "name": "clear id=txtUsername",
+            "match": {
+              "location": "Case 1/11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 3,
+            "name": "sendKeys Bob into id=txtUsername",
+            "match": {
+              "location": "Case 1/21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 680000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 4,
+            "name": "clear id=txtPassword",
+            "match": {
+              "location": "Case 1/31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 598000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 5,
+            "name": "sendKeys ****** into id=txtPassword",
+            "match": {
+              "location": "Case 1/41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 6,
+            "name": "click on id=version",
+            "match": {
+              "location": "Case 1/51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 653000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 7,
+            "name": "click on id=btnLogin",
+            "match": {
+              "location": "Case 1/61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 673000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 8,
+            "name": "clear id=txtWithdrawn",
+            "match": {
+              "location": "Case 1/71"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 709000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 9,
+            "name": "sendKeys 10 into id=txtWithdrawn",
+            "match": {
+              "location": "Case 1/81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 629000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 10,
+            "name": "click on id=btnWithdrawn",
+            "match": {
+              "location": "Case 1/91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 11,
+            "name": "clear id=txtDeposite",
+            "match": {
+              "location": "Case 1/101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 12,
+            "name": "sendKeys 10 into id=txtDeposite",
+            "match": {
+              "location": "Case 1/111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 671000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 13,
+            "name": "click on id=btnDeposite",
+            "match": {
+              "location": "Case 1/121"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And",
+            "line": 14,
+            "name": "click on xpath=//button",
+            "match": {
+              "location": "Case 1/131"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 667000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
